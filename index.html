@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Card Gtr R32</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <img src="logoGtr.png" alt="logo" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#hal2">Product</a></li>
+        <li><a href="#copy">Copyright</a></li>
+      </ul>
+      <div class="nvgs">
+        <input type="checkbox"/>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <main>
+      <div class="slides">
+          
+          <div class="slide">
+            <div class="slideimg" style="background-image: url('1.jpg');">
+              <div class="item">
+                <p>Nissan GT-R: Raja Jalanan yang Tangguh</p>
+                <p>Mobil sport biasanya memiliki desain yang aerodinamis, bobot yang ringan, suspensi yang kokoh, dan mesin yang bertenaga tinggi.</p>
+                <button>Semua Produk</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="slide">
+            <div class="slideimg" style="background-image: url('2.jpg');">
+              <div class="item">
+                <p>Nissan GT-R: Mobil Sport yang Melegenda</p>
+                <p>Nissan GT-R adalah mobil sport legendaris yang telah dikenal dengan performanya yang tangguh dan ketangguhannya.</p>
+                <button>Semua Produk</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="navigation">
+            <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlide(-1)">&#10095;</a>
+      </div>
+      <!-- <div class="card">
+        <div class="oo"></div>
+      </div> -->
+      <div class="home">
+        <div class="homeKategori">
+          <div class="homeKategori1">
+            <p><i class="ph ph-hands-praying"></i></p>
+            <p>Lebih Hemat</p>
+            <p>Percayalah akan lebih hemat dengan kami.</p>
+          </div>
+          <div class="homeKategori1">
+            <p><i class="ph ph-seal-check"></i></p>
+            <p>Tersertifikasi</p>
+            <p>Semua kendaraan kami telah tersertifikasi.</p>
+          </div>
+          <div class="homeKategori1">
+            <p><i class="ph ph-traffic-cone"></i></p>
+            <p>Aman dan terlindungi</p>
+            <p>Bergaransi dan aman terlindungi asuransi</p>
+          </div>
+          <div class="homeKategori1">
+            <p><i class="ph ph-car"></i></p>
+            <p>Bebas Tabrak</p>
+            <p>Kami menjamin kendaraan bebas tabrak dan Banjir</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="info1">
+      <div class="info1A">
+        <div class="info1ACard">
+          <img src="5.jpg" alt="Picture">
+          <p>Produk Berkelas</p>
+          <button href="#hal2">Semua Produk</button>
+        </div>
+        <div class="info1ACard">
+          <img src="6.jpg" alt="Picture">
+          <p>Kilometer Rendah</p>
+          <button>Hubungi </button>
+        </div>
+      </div>
+      <div class="info1B">
+        <p>Mobil Bergaransi</p>
+        <p>Lorem Ipsum</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit sed ex commodi cupiditate molestias voluptas, a dolores quisquam. Possimus ducimus voluptatem praesentium aliquam porro fugit molestiae nostrum. Eos, odit.</p>
+      </div>
+    </div>
+    <div class="hal2">
+      <div class="hal2Des">
+        <p>Sports Terbaru Kami</p>
+        <p>Limited Stok dan Terawat</p>
+        <p>Sportcar menawarkan pengalaman yang lebih eksklusif dan mewah dibandingkan dengan showroom mobil biasa. Pelanggan dapat melihat mobil-mobil sport yang dipajang dalam kondisi yang sangat terawat dan biasanya dapat mengakses mobil-mobil tersebut untuk dilihat lebih dekat atau bahkan diuji coba.</p>
+      </div>
+      <div class="hal2DetailCard" id="hal2">
+        
+        <div class="detailCardh">
+          <div class="detailCardhImg">
+            <img src="1.jpg" alt="Picture">
+          </div>
+          <div class="detailCardhDes">
+            <div class="detailCardhDesTitle">
+              <p>Mobil Sports</p>
+            </div>
+            <div class="detailCardhDesPar">
+              <button onclick="detailsProduk('Mobil Sports', '1.jpg', '©©©©©','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ad, corrupti quam quis fugiat! Nobis, distinctio autem quasi a! Facilis quam totam accusantium illum eos laborum dolore debitis architecto deserunt vel maiores magnam, porro fuga suscipit nemo provident dicta commodi consequatur rem? Dolor, atque autem eaque magni. Quidem, voluptas. Laboriosam.', '100000000')">Detail Produk</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="detailCardh">
+          <div class="detailCardhImg">
+            <img src="2.jpg" alt="Picture">
+          </div>
+          <div class="detailCardhDes">
+            <div class="detailCardhDesTitle">
+              <p>Mobil Sports</p>
+            </div>
+            <div class="detailCardhDesPar">
+              <button onclick="detailsProduk('Nisan Gtr', '2.jpg', '©©©','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ad, corrupti quam quis fugiat! Nobis, distinctio autem quasi a! Facilis quam totam accusantium illum eos laborum dolore debitis architecto deserunt vel maiores magnam, porro fuga suscipit nemo provident dicta commodi consequatur rem? Dolor, atque autem eaque magni. Quidem, voluptas. Laboriosam.', '200000')">Detail Produk</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="detailCardh">
+          <div class="detailCardhImg">
+            <img src="3.jpg" alt="Picture">
+          </div>
+          <div class="detailCardhDes">
+            <div class="detailCardhDesTitle">
+              <p>Mobil Sports</p>
+            </div>
+            <div class="detailCardhDesPar">
+              <button onclick="detailsProduk('Nisan Gtr', '3.jpg', '©©©','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ad, corrupti quam quis fugiat! Nobis, distinctio autem quasi a! Facilis quam totam accusantium illum eos laborum dolore debitis architecto deserunt vel maiores magnam, porro fuga suscipit nemo provident dicta commodi consequatur rem? Dolor, atque autem eaque magni. Quidem, voluptas. Laboriosam.', '200000')">Detail Produk</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="detailCardh">
+          <div class="detailCardhImg">
+            <img src="4.jpg" alt="Picture">
+          </div>
+          <div class="detailCardhDes">
+            <div class="detailCardhDesTitle">
+              <p>Mobil Sports</p>
+            </div>
+            <div class="detailCardhDesPar">
+              <button onclick="detailsProduk('Nisan Gtr', '4.jpg', '©©©','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ad, corrupti quam quis fugiat! Nobis, distinctio autem quasi a! Facilis quam totam accusantium illum eos laborum dolore debitis architecto deserunt vel maiores magnam, porro fuga suscipit nemo provident dicta commodi consequatur rem? Dolor, atque autem eaque magni. Quidem, voluptas. Laboriosam.', '200000')">Detail Produk</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="detailCardh">
+          <div class="detailCardhImg">
+            <img src="5.jpg" alt="Picture">
+          </div>
+          <div class="detailCardhDes">
+            <div class="detailCardhDesTitle">
+              <p>Mobil Sports</p>
+            </div>
+            <div class="detailCardhDesPar">
+              <button onclick="detailsProduk('Nisan Gtr', '5.jpg', '©©©','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ad, corrupti quam quis fugiat! Nobis, distinctio autem quasi a! Facilis quam totam accusantium illum eos laborum dolore debitis architecto deserunt vel maiores magnam, porro fuga suscipit nemo provident dicta commodi consequatur rem? Dolor, atque autem eaque magni. Quidem, voluptas. Laboriosam.', '200000')">Detail Produk</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hal3">
+      <div class="hal3A">
+        <div class="hal3A1">
+          <p>30</p>
+          <p>Mobil</p>
+        </div>
+        <div class="hal3A1">
+          <p>10</p>
+          <p>Karyawan</p>
+        </div>
+        <div class="hal3A1">
+          <p>255</p>
+          <p>Terjual</p>
+        </div>
+        <div class="hal3A1">
+          <p>10</p>
+          <p>Provinsi</p>
+        </div>
+      </div>
+    </div>
+    <div class="hal4">
+      <p>Test <span>Drive</span></p>
+      <p>Showroom mobil sport juga biasanya menawarkan pengalaman tes drive, di mana pembeli dapat mencoba mobil sport tersebut secara langsung dan merasakan performa serta kenyamanannya. Hal ini dapat membantu pembeli dalam memilih mobil sport yang sesuai dengan kebutuhan dan preferensi mereka.</p>
+    </div>
+    <footer>
+      <div class="footerPicture">
+        <img src="" alt="Picture" name="footerSlide">
+      </div>
+      <div class="footerDesk">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, incidunt placeat, alias molestiae doloremque consectetur sit debitis animi sunt, officiis quibusdam magnam praesentium vel dolores! Labore voluptatibus, eum modi eius dolor eaque qui voluptates illum molestiae laudantium similique, est nesciunt aperiam repudiandae harum molestias architecto dignissimos! Cum rem minus, provident, aspernatur hic corrupti quasi at rerum tenetur ab ad modi obcaecati et illo! Voluptatibus voluptatum nesciunt asperiores placeat fugit quisquam enim perferendis quae veritatis consequatur!</p>
+      </div>
+      <div class="footerLink">
+        <div class="footerLinkCard">
+          <div class="footerLinkCardA">
+            <p>Explour Our Page</p>
+          </div>
+          <div class="footerLinkCardB">
+            <p>Home</p>
+            <p>About</p>
+            <p>Product</p>
+            <p>Contact Us</p>
+          </div>
+        </div>
+        <div class="footerLinkCard" id="contact">
+          <div class="footerLinkCardA">
+            <p>Explour Our Page</p>
+          </div>
+          <div class="footerLinkCardB">
+            <p>Facebook</p>
+            <p>Twiter</p>
+            <p>Instagram</p>
+          </div>
+        </div>
+        <div class="footerLinkCard">
+          <div class="footerLinkCardA">
+            <p>Explour Our Page</p>
+          </div>
+          <div class="footerLinkCardB">
+            <p>08XX-XXXX-XXXX</p>
+            <p>admin@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <p id="copy">Copyright ©2023 WebsiteTokoMobil</p>
+    </footer>
+  </div>
+  <!-- <div class="popup">
+    <div class="popup-content">
+      <div class="popup-tutup">
+        <span>&times;</span>
+      </div>
+      <div class="popup-images">
+        <img src="source/1.jpg">
+      </div>
+      <div class="popup-deskripsi">
+        <div class="Poptitle">
+          <p>Lamborgini warna orange.</p>
+        </div>
+        <div class="Poparag">
+          <div class="PoparagRate">
+            <div class="bintang">
+              <p>✨✨✨✨✨</p>
+            </div>
+            <div class="namaSales">
+              <p>Muchammad Fachri Syakur</p>
+            </div>
+          </div>
+          <div class="PoparagDesk">
+            <div class="PoparagDeskHarga">
+              <p>Rp.450.000.000.00</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ut vitae possimus vel incidunt voluptatum quam deleniti ipsam excepturi mollitia, maiores beatae nisi velit nihil esse, ex iste iusto sit, iure aliquid natus accusantium? Sint deserunt iste voluptatum non maiores nesciunt id eum. Reprehenderit optio, eligendi expedita ipsum, quae rerum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <script type="text/javascript" charset="utf-8">
+   let i = 0;
+   let footerImage = [];
+   var footerWaktu = 1500;
+   
+   footerImage[0] = "1.jpg";
+   footerImage[1] = "2.jpg";
+   footerImage[2] = "3.jpg";
+   footerImage[3] = "4.jpg";
+   footerImage[4] = "5.jpg";
+   footerImage[5] = "6.jpg";
+   
+   function slideFooter(){
+     document.footerSlide.src = footerImage[i];
+     if(i < footerImage.length- 1){
+       i++;
+     }else{
+       i = 0;
+     }
+     setTimeout(slideFooter,footerWaktu);
+   }
+   window.onload = slideFooter;
+   
+   function detailsProduk(namaProduk, gambarProduk, ratingProduk, detailpro, hargaProduk){
+     const popup = document.createElement('div');
+     popup.className = 'popup';
+     popup.innerHTML = `
+        <div class="popup-content">
+      <div class="popup-tutup">
+        <span onclick="tombolTutup()">&times;</span>
+      </div>
+      <div class="popup-images">
+        <img src="${gambarProduk}">
+      </div>
+      <div class="popup-deskripsi">
+        <div class="Poptitle">
+          <p>${namaProduk}</p>
+        </div>
+        <div class="Poparag">
+          <div class="PoparagRate">
+            <div class="bintang">
+              <p>${ratingProduk}</p>
+            </div>
+            <div class="namaSales">
+              <p>Muchammad Fachri Syakur</p>
+            </div>
+          </div>
+          <div class="PoparagDesk">
+            <div class="PoparagDeskHarga">
+              <p>Rp.${hargaProduk.toLocaleString("id-ID")}</p>
+              <p>${detailpro}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     `;
+     document.body.appendChild(popup);
+   }
+   
+   function tombolTutup(){
+     const popup = document.querySelector(".popup");
+     document.body.removeChild(popup);
+   }
+   const inputCheck = document.querySelector('.container nav .nvgs input');
+   const yangAkanAktif = document.querySelector('.container nav ul');
+ 
+   inputCheck.addEventListener('click', (e) =>{
+     yangAkanAktif.classList.toggle('listAktif');
+   });
+   
+   var slideIndex = 1;
+   showSlides(slideIndex);
+   
+   function plusSlide(n){
+     showSlides(slideIndex += n);
+   }
+   function showSlides(n){
+     var i;
+     var slides = document.querySelectorAll('.slide');
+     if(n > slides.length){
+       slideIndex = 1;
+     }if(n < 1){
+       slideIndex = slides.length;
+     }
+     for(i = 0; i < slides.length; i++){
+       slides[i].style.display = "none";
+     }
+     slides[slideIndex-1].style.display = "block";
+     slides[slideIndex-1].style.animationName = "muncul";
+     }
+  </script>
+</body>
+</html>
